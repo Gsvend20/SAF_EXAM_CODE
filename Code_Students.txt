@@ -109,8 +109,8 @@ CASE state OF
 	----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	
 END_CASE //End of looop, slut med switch case og den er klar til at starte forfra, efter de sidste funcs er kaldt
-timer();
-timer2();
+timer(); // timer til ?
+timer2(); // timer for holde bestemt carrier
 RFID();
 TCPclient();
 DateTimeFB();
